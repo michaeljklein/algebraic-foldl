@@ -1,0 +1,109 @@
+I, [2018-09-23T01:41:01.545289 #90673]  INFO -- : Stack log:
+I, [2018-09-23T01:41:01.545395 #90673]  INFO -- : algebraic-foldl-0.1.0.0: unregistering (local file changes: ChangeLog.md README.md algebraic-foldl.cabal package.yaml src/Control/Foldl/End.hs src/Control/Fo...)
+algebraic-foldl-0.1.0.0: configure (lib)
+Configuring algebraic-foldl-0.1.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+algebraic-foldl-0.1.0.0: build (lib)
+Preprocessing library for algebraic-foldl-0.1.0.0..
+Building library for algebraic-foldl-0.1.0.0..
+[ 1 of 36] Compiling Control.Foldl.Utils ( src/Control/Foldl/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/Utils.o )
+[ 2 of 36] Compiling Control.Foldl.NonEmpty ( src/Control/Foldl/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/NonEmpty.o )
+[ 3 of 36] Compiling Control.Foldls.End.NonEmpty ( src/Control/Foldls/End/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/End/NonEmpty.o )
+[ 4 of 36] Compiling Control.Foldls.Monadic.End ( src/Control/Foldls/Monadic/End.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/Monadic/End.o )
+[ 5 of 36] Compiling Control.Monad.Trans.Const ( src/Control/Monad/Trans/Const.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Monad/Trans/Const.o )
+[ 6 of 36] Compiling Data.Distributive.Monadic ( src/Data/Distributive/Monadic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Distributive/Monadic.o )
+[ 7 of 36] Compiling Control.Monad.Rep ( src/Control/Monad/Rep.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Monad/Rep.o )
+[ 8 of 36] Compiling Data.Either.Utils ( src/Data/Either/Utils.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Either/Utils.o )
+[ 9 of 36] Compiling Control.Foldl.Free ( src/Control/Foldl/Free.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/Free.o )
+[10 of 36] Compiling Control.Foldl.Monadic.NonEmpty ( src/Control/Foldl/Monadic/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/Monadic/NonEmpty.o )
+[11 of 36] Compiling Control.Foldl.End ( src/Control/Foldl/End.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/End.o )
+[12 of 36] Compiling Control.Foldl.Monadic.End ( src/Control/Foldl/Monadic/End.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/Monadic/End.o )
+[13 of 36] Compiling Control.Foldl.Monadic.End.NonEmpty ( src/Control/Foldl/Monadic/End/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/Monadic/End/NonEmpty.o )
+[14 of 36] Compiling Control.Foldl.End.NonEmpty ( src/Control/Foldl/End/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldl/End/NonEmpty.o )
+[15 of 36] Compiling Data.Foldable.Free ( src/Data/Foldable/Free.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Free.o )
+[16 of 36] Compiling Control.Foldls   ( src/Control/Foldls.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls.o )
+[17 of 36] Compiling Data.Foldable.Free.Church ( src/Data/Foldable/Free/Church.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Free/Church.o )
+[18 of 36] Compiling Data.Foldable.Monadic.NonEmpty.Free ( src/Data/Foldable/Monadic/NonEmpty/Free.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic/NonEmpty/Free.o )
+[19 of 36] Compiling Control.Foldls.Monadic.NonEmpty ( src/Control/Foldls/Monadic/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/Monadic/NonEmpty.o )
+[20 of 36] Compiling Control.Foldls.Monadic.End.NonEmpty ( src/Control/Foldls/Monadic/End/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/Monadic/End/NonEmpty.o )
+[21 of 36] Compiling Data.Foldable.Monadic.NonEmpty.Free.Church ( src/Data/Foldable/Monadic/NonEmpty/Free/Church.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic/NonEmpty/Free/Church.o )
+[22 of 36] Compiling Data.Foldable.NonEmpty.Free ( src/Data/Foldable/NonEmpty/Free.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/NonEmpty/Free.o )
+[23 of 36] Compiling Control.Foldls.NonEmpty ( src/Control/Foldls/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/NonEmpty.o )
+[24 of 36] Compiling Data.Foldable.NonEmpty.Free.Church ( src/Data/Foldable/NonEmpty/Free/Church.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/NonEmpty/Free/Church.o )
+[25 of 36] Compiling Data.Functor.NonEmpty ( src/Data/Functor/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Functor/NonEmpty.o )
+[26 of 36] Compiling Data.Foldable.NonEmpty ( src/Data/Foldable/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/NonEmpty.o )
+[27 of 36] Compiling Data.Foldable.Monadic ( src/Data/Foldable/Monadic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic.o )
+[28 of 36] Compiling Data.Foldable.Monadic.NonEmpty ( src/Data/Foldable/Monadic/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic/NonEmpty.o )
+[29 of 36] Compiling Data.Foldable.Monadic.Free.Church ( src/Data/Foldable/Monadic/Free/Church.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic/Free/Church.o )
+[30 of 36] Compiling Data.Foldable.Monadic.Free ( src/Data/Foldable/Monadic/Free.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/Foldable/Monadic/Free.o )
+[31 of 36] Compiling Control.Foldls.End ( src/Control/Foldls/End.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/End.o )
+[32 of 36] Compiling Control.Foldls.Monadic ( src/Control/Foldls/Monadic.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Foldls/Monadic.o )
+[33 of 36] Compiling Data.N           ( src/Data/N.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/N.o )
+[34 of 36] Compiling Control.Nary     ( src/Control/Nary.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Control/Nary.o )
+[35 of 36] Compiling Data.PseudoPoly  ( src/Data/PseudoPoly.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Data/PseudoPoly.o )
+[36 of 36] Compiling Paths_algebraic_foldl ( .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/autogen/Paths_algebraic_foldl.hs, .stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/Paths_algebraic_foldl.o )
+ignoring (possibly broken) abi-depends field for packages
+algebraic-foldl-0.1.0.0: haddock
+Preprocessing library for algebraic-foldl-0.1.0.0..
+Running Haddock on library for algebraic-foldl-0.1.0.0..
+Haddock coverage:
+ 100% ( 12 / 12) in 'Control.Foldl.Utils'
+ 100% ( 14 / 14) in 'Control.Foldl.NonEmpty'
+ 100% (  2 /  2) in 'Control.Foldls.End.NonEmpty'
+ 100% (  2 /  2) in 'Control.Foldls.Monadic.End'
+ 100% (  6 /  6) in 'Control.Monad.Trans.Const'
+ 100% ( 17 / 17) in 'Data.Distributive.Monadic'
+ 100% ( 62 / 62) in 'Control.Monad.Rep'
+ 100% (  3 /  3) in 'Data.Either.Utils'
+ 100% ( 32 / 32) in 'Control.Foldl.Free'
+ 100% (  4 /  4) in 'Control.Foldl.Monadic.NonEmpty'
+ 100% ( 81 / 81) in 'Control.Foldl.End'
+ 100% ( 12 / 12) in 'Control.Foldl.Monadic.End'
+ 100% (  2 /  2) in 'Control.Foldl.Monadic.End.NonEmpty'
+ 100% (  7 /  7) in 'Control.Foldl.End.NonEmpty'
+ 100% ( 17 / 17) in 'Data.Foldable.Free'
+ 100% (  5 /  5) in 'Control.Foldls'
+ 100% ( 16 / 16) in 'Data.Foldable.Free.Church'
+ 100% (  2 /  2) in 'Data.Foldable.Monadic.NonEmpty.Free'
+ 100% (  2 /  2) in 'Control.Foldls.Monadic.NonEmpty'
+ 100% (  2 /  2) in 'Control.Foldls.Monadic.End.NonEmpty'
+ 100% (  2 /  2) in 'Data.Foldable.Monadic.NonEmpty.Free.Church'
+ 100% (  2 /  2) in 'Data.Foldable.NonEmpty.Free'
+ 100% (  2 /  2) in 'Control.Foldls.NonEmpty'
+ 100% (  2 /  2) in 'Data.Foldable.NonEmpty.Free.Church'
+ 100% (  8 /  8) in 'Data.Functor.NonEmpty'
+ 100% (  8 /  8) in 'Data.Foldable.NonEmpty'
+ 100% ( 13 / 13) in 'Data.Foldable.Monadic'
+ 100% (  4 /  4) in 'Data.Foldable.Monadic.NonEmpty'
+ 100% ( 26 / 26) in 'Data.Foldable.Monadic.Free.Church'
+ 100% ( 26 / 26) in 'Data.Foldable.Monadic.Free'
+ 100% (  4 /  4) in 'Control.Foldls.End'
+ 100% (  6 /  6) in 'Control.Foldls.Monadic'
+ 100% ( 15 / 15) in 'Data.N'
+ 100% ( 31 / 31) in 'Control.Nary'
+ 100% ( 17 / 17) in 'Data.PseudoPoly'
+Warning: Control.Monad.Trans.Const: could not find link destinations for:
+    wrappedCofreeFToProd
+Warning: Data.Distributive.Monadic: could not find link destinations for:
+    wrappedCofreeFToProd WrappedCofreeF
+Warning: Control.Monad.Rep: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Control.Foldl.End: could not find link destinations for:
+    fromCofreeReader foldWhileFree2 foldWhileFreeE2
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/doc/html/algebraic-foldl/index.html,
+.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/doc/html/algebraic-foldl/algebraic-foldl.txt
+Preprocessing test suite 'basic-test' for algebraic-foldl-0.1.0.0..
+algebraic-foldl-0.1.0.0: copy/register
+Installing library in /Users/michaelklein/Coding/haskell/algebraic-foldl/.stack-work/install/x86_64-osx/lts-12.0/8.4.3/lib/x86_64-osx-ghc-8.4.3/algebraic-foldl-0.1.0.0-2lDW14LyQRY4TXiBCKeEAN
+Registering library for algebraic-foldl-0.1.0.0..
+Updating Haddock index for local packages in
+/Users/michaelklein/Coding/haskell/algebraic-foldl/.stack-work/install/x86_64-osx/lts-12.0/8.4.3/doc/index.html
+Updating Haddock index for local packages and dependencies in
+/Users/michaelklein/Coding/haskell/algebraic-foldl/.stack-work/install/x86_64-osx/lts-12.0/8.4.3/doc/all/index.html
+Haddock index for snapshot packages already up to date at:
+/Users/michaelklein/.stack/snapshots/x86_64-osx/lts-12.0/8.4.3/doc/index.html
+
+I, [2018-09-23T01:41:01.545559 #90673]  INFO -- : nil
+I, [2018-09-23T01:41:01.545586 #90673]  INFO -- : built_docs_dir: /Users/michaelklein/Coding/haskell/algebraic-foldl/.stack-work/install/x86_64-osx/lts-12.0/8.4.3/doc
+I, [2018-09-23T01:41:04.724835 #90673]  INFO -- : Docs copied to doc/
