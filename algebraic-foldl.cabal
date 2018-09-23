@@ -1,0 +1,111 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 6795a8992416240f951472d6da69d8cf741ff963eefee45ecda15644754b6564
+
+name:           algebraic-foldl
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/michaeljklein/algebraic-foldl#readme>
+homepage:       https://github.com/michaeljklein/algebraic-foldl#readme
+bug-reports:    https://github.com/michaeljklein/algebraic-foldl/issues
+author:         Michael J. Klein
+maintainer:     lambdamichael@gmail.com
+copyright:      2018 Michael J. Klein
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/michaeljklein/algebraic-foldl
+
+library
+  exposed-modules:
+      Control.Foldl.End
+      Control.Foldl.End.NonEmpty
+      Control.Foldl.Free
+      Control.Foldl.Monadic.End
+      Control.Foldl.Monadic.End.NonEmpty
+      Control.Foldl.Monadic.NonEmpty
+      Control.Foldl.NonEmpty
+      Control.Foldl.Utils
+      Control.Foldls
+      Control.Foldls.End
+      Control.Foldls.End.NonEmpty
+      Control.Foldls.Monadic
+      Control.Foldls.Monadic.End
+      Control.Foldls.Monadic.End.NonEmpty
+      Control.Foldls.Monadic.NonEmpty
+      Control.Foldls.NonEmpty
+      Control.Monad.Rep
+      Control.Monad.Trans.Const
+      Control.Nary
+      Data.Distributive.Monadic
+      Data.Either.Utils
+      Data.Foldable.Free
+      Data.Foldable.Free.Church
+      Data.Foldable.Monadic
+      Data.Foldable.Monadic.Free
+      Data.Foldable.Monadic.Free.Church
+      Data.Foldable.Monadic.NonEmpty
+      Data.Foldable.Monadic.NonEmpty.Free
+      Data.Foldable.Monadic.NonEmpty.Free.Church
+      Data.Foldable.NonEmpty
+      Data.Foldable.NonEmpty.Free
+      Data.Foldable.NonEmpty.Free.Church
+      Data.Functor.NonEmpty
+      Data.N
+      Data.PseudoPoly
+  other-modules:
+      Paths_algebraic_foldl
+  hs-source-dirs:
+      src
+  build-depends:
+      adjunctions
+    , base >=4.7 && <5
+    , comonad
+    , constraints
+    , contravariant
+    , distributive
+    , foldl
+    , free
+    , ghc-prim
+    , ghc-typelits-natnormalise
+    , list-t
+    , mtl
+    , profunctors
+    , semigroupoids
+    , transformers
+  default-language: Haskell2010
+
+test-suite basic-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_algebraic_foldl
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      adjunctions
+    , algebraic-foldl
+    , base >=4.7 && <5
+    , comonad
+    , constraints
+    , contravariant
+    , distributive
+    , foldl
+    , free
+    , ghc-prim
+    , ghc-typelits-natnormalise
+    , list-t
+    , mtl
+    , profunctors
+    , semigroupoids
+    , transformers
+  default-language: Haskell2010
